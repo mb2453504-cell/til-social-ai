@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #0F0F0F;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #333;
+}
+
+/* Links */
+a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Buttons */
+.button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.button-primary {
+  background: white;
+  color: black;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
